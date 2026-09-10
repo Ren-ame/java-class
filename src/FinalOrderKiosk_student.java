@@ -108,9 +108,9 @@ public class FinalOrderKiosk_student {
                 int discountRate;
 
                 // TODO 10: 주문 금액에 맞는 할인율을 결정한다.
-                if (orderAmount > 50000) {
+                if (orderAmount >= 50000) {
                     discountRate = 10;
-                } else if (orderAmount > 30000) {
+                } else if (orderAmount >= 30000) {
                     discountRate = 5;
                 } else {
                     discountRate = 0;
